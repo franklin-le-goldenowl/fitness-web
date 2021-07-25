@@ -1,0 +1,53 @@
+@import 'variables';
+
+.footer {
+  background-color: #19191C;
+
+  .mt-logo {
+    margin-top: 5rem;
+  }
+
+  .footer-quick-contact, .footer-popular-tag {
+    font-family: 'Futura PT Medium';
+    font-size: 20px;
+    color: $white;
+  }
+
+  .footer-address {
+    font-family: 'Futura PT Book';
+    font-size: 17px;
+    color: #BCBCBC;
+  }
+
+  .footer-phone-number, .footer-email {
+    font-family: 'Futura PT Medium';
+    font-size: 13px;
+    color: #BBBBBB;
+  }
+
+  .btn-popular-tag {
+    border-radius: 0;
+    background-color: #19191C;
+    color: #BCBCBC;
+    border-color: #BCBCBC;
+    font-size: 13px;
+
+    &.active {
+      color: white;
+      background-color: #5EB6E1;
+      border-color: #5EB6E1;
+    }
+  }
+
+  .footer-navbar {
+    font-family: 'Futura PT Demi';
+    font-size: 16px;
+    background-color: #5eb6e1;
+  }
+
+  .footer-background {
+    font-family: 'Futura PT Light';
+    font-size: 14px;
+    color: #707070;
+  }
+}
