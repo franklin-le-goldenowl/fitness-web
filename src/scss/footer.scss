@@ -1,10 +1,10 @@
-@import 'variables';
+@import 'colors';
 
 .footer {
-  background-color: #19191C;
+  background-color: $black-darken-1;
 
   .mt-logo {
-    margin-top: 5rem;
+    transform: translateY(380%);
   }
 
   .footer-quick-contact, .footer-popular-tag {
@@ -16,38 +16,36 @@
   .footer-address {
     font-family: 'Futura PT Book';
     font-size: 17px;
-    color: #BCBCBC;
+    color: $grey-lighten-1;
   }
 
   .footer-phone-number, .footer-email {
     font-family: 'Futura PT Medium';
     font-size: 13px;
-    color: #BBBBBB;
+    color: $grey-lightest-2;
   }
 
-  .btn-popular-tag {
+  .btn {
+    color: $white;
     border-radius: 0;
-    background-color: #19191C;
-    color: #BCBCBC;
-    border-color: #BCBCBC;
     font-size: 13px;
 
-    &.active {
-      color: white;
-      background-color: #5EB6E1;
-      border-color: #5EB6E1;
+    &.btn-inactive {
+      background-color: $black-darken-1;
+      border-color: $grey-lightest-2;
+      color: $grey-lightest-2;
     }
   }
 
   .footer-navbar {
     font-family: 'Futura PT Demi';
     font-size: 16px;
-    background-color: #5eb6e1;
+    background-color: $blue;
   }
 
   .footer-background {
     font-family: 'Futura PT Light';
     font-size: 14px;
-    color: #707070;
+    color: $grey;
   }
 }

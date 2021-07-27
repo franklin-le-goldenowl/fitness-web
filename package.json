@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css:scss": "node-sass --output-style compressed -o dist src/scss",
-    "css:autoprefixer": "postcss -u autoprefixer -r dist/*.css",
+    "css:scss": "node-sass --output-style compressed -o dist/css src/scss",
+    "css:autoprefixer": "postcss -u autoprefixer -r dist/css/*.css",
     "css:lint": "stylelint src/scss/*.scss --syntax scss || true",
     "build:css": "npm run css:lint && npm run css:scss && npm run css:autoprefixer",
     "watch:css": "onchange \"src/scss\" -- npm run build:css",

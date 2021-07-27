@@ -1,4 +1,14 @@
+@import 'colors';
+
 .header {
   font-family: 'Futura PT Demi';
   font-size: 16px;
+
+  .nav-bar {
+    color: $black;
+  }
+
+  .phone-number {
+    color: $black-darken-2;
+  }
 }

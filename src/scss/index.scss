@@ -3,6 +3,8 @@
 @import 'footer';
 @import 'fonts';
 
+@import 'colors';
+
 .be-strong-logo {
   height: 22px;
 }
@@ -17,4 +19,9 @@
 
 .icon-large {
 
+}
+
+.btn {
+  background-color: $blue;
+  border-color: $blue;
 }

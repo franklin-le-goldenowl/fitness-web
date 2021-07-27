@@ -1,22 +1,22 @@
-@import 'variables';
+@import 'colors';
 
-.intro-screen {
+.screen-intro {
   position: relative;
 
-  .intro-img {
+  .bg {
     width: 100vw;
   }
 
-  .intro-screen-tips {
+  .tips {
     font-family: 'Futura PT Light';
     font-size: 20px;
-    color: #707070;
+    color: $grey;
     position: absolute;
     top: 30%;
     left: 10%;
   }
 
-  .intro-screen-title {
+  .title {
     font-family: 'Futura PT Medium';
     font-size: 50px;
     line-height: 100%;
@@ -27,12 +27,102 @@
     transform: translateX(-100%);
   }
 
-  .btn-intro-screen {
+  &-btn {
+    background-color: $blue;
     font-family: 'Futura PT Light';
     font-size: 20px;
-    color: #000000;
+    color: $black;
     position: absolute;
     top: 60%;
     left: 10%;
+  }
+}
+
+.screen-class-registration {
+  .class-registration-container {
+    width: 80%;
+
+    .margin-class-registration-img {
+      margin-top: 5rem;
+
+      img {
+        width: 100%;
+      }
+
+      .center-text-class-registration {
+        transform: translateY(-130%);
+        color: $white;
+
+        .body-building {
+          font-family: 'Futura PT Medium';
+          font-size: 20px;
+        }
+
+        .trained {
+          font-family: 'Futura PT Book';
+          font-size: 13px;
+        }
+
+        .btn {
+          color: $white;
+          border-radius: 0;
+
+          &.btn-classic {
+            background-color: $orange;
+            border-color: $orange;
+          }
+
+          &.btn-standard {
+            background-color: $purple;
+            border-color: $purple;
+          }
+        }
+      }
+    }
+  }
+
+  .margin-about-us {
+    .center-about-us-text {
+      transform: translateY(36%);
+    }
+
+    .about-us {
+      font-family: 'Futura PT Bold';
+      font-size: 10px;
+      color: $orange;
+    }
+
+    .title {
+      font-family: 'Futura PT Bold';
+      font-size: 40px;
+      color: $black-lighten-1;
+    }
+
+    hr {
+      color: $blue;
+      width: 18%;
+      border-top: solid $blue 1px;
+    }
+
+    .content {
+      font-family: 'Futura PT Bold';
+      font-size: 20px;
+
+      .opening {
+        color: $orange;
+      }
+
+      .body {
+        color: $grey-darken-1;
+      }
+    }
+
+    img {
+      width: 100%;
+
+      &.center-about-us-img {
+        transform: translateY(32%);
+      }
+    }
   }
 }
