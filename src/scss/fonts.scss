@@ -1,25 +1,35 @@
 // FUTURA PT
 @font-face {
   font-family: 'Futura PT Bold';
-  src: url('futura-pt-bold.ttf') format('truetype');
+  src: url('../fonts/futura-pt-bold.otf') format('truetype');
 }
 
 @font-face {
   font-family: 'Futura PT Book';
-  src: url('futura-pt-book.ttf') format('truetype');
+  src: url('../fonts/futura-pt-book.otf') format('truetype');
 }
 
 @font-face {
   font-family: 'Futura PT Demi';
-  src: url('futura-pt-demi.ttf') format('truetype');
+  src: url('../fonts/futura-pt-demi.otf') format('truetype');
 }
 
 @font-face {
   font-family: 'Futura PT Light';
-  src: url('futura-pt-light.ttf') format('truetype');
+  src: url('../fonts/futura-pt-light.otf') format('truetype');
 }
 
 @font-face {
   font-family: 'Futura PT Medium';
-  src: url('futura-pt-medium.ttf') format('truetype');
+  src: url('../fonts/futura-pt-medium.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Futura PT DemiBold';
+  src: url('../fonts/futura-pt-demibold.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Arial Regular';
+  src: url('../fonts/arial-regular.ttf') format('truetype');
 }

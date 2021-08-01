@@ -17,11 +17,22 @@
   height: 16px;
 }
 
-.icon-large {
-
-}
-
 .btn {
   background-color: $blue;
   border-color: $blue;
+}
+
+h5 {
+  font-family: 'Futura PT Medium';
+  font-size: 40px;
+}
+
+hr {
+  color: $blue;
+  border-top: solid $blue 2px;
+}
+
+.intro {
+  padding-left: 20rem;
+  padding-right: 20rem;
 }

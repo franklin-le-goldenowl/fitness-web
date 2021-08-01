@@ -8,7 +8,7 @@
   }
 
   .tips {
-    font-family: 'Futura PT Light';
+    font-family: 'Futura PT Book';
     font-size: 20px;
     color: $grey;
     position: absolute;
@@ -16,7 +16,7 @@
     left: 10%;
   }
 
-  .title {
+  &-title {
     font-family: 'Futura PT Medium';
     font-size: 50px;
     line-height: 100%;
@@ -29,7 +29,7 @@
 
   &-btn {
     background-color: $blue;
-    font-family: 'Futura PT Light';
+    font-family: 'Futura PT Book';
     font-size: 20px;
     color: $black;
     position: absolute;
@@ -64,6 +64,7 @@
         }
 
         .btn {
+          font-family: 'Futura PT Book';
           color: $white;
           border-radius: 0;
 
@@ -92,20 +93,16 @@
       color: $orange;
     }
 
-    .title {
-      font-family: 'Futura PT Bold';
-      font-size: 40px;
+    h5 {
       color: $black-lighten-1;
     }
 
     hr {
-      color: $blue;
       width: 18%;
-      border-top: solid $blue 1px;
     }
 
     .content {
-      font-family: 'Futura PT Bold';
+      font-family: 'Futura PT Book';
       font-size: 20px;
 
       .opening {
@@ -124,5 +121,258 @@
         transform: translateY(32%);
       }
     }
+  }
+}
+
+.screen-our-class {
+  background-color: $black-darken-3;
+  color: $white;
+
+  hr {
+    width: 7%;
+    margin: auto;
+  }
+
+  .intro {
+    margin-bottom: 6rem;
+  }
+
+  .row {
+    .col-md-4 {
+      padding: 0;
+
+      .card-container {
+        position: relative;
+
+        .card {
+          border: none;
+
+          img {
+            height: 330px;
+          }
+        }
+
+        .card-text {
+          padding: 1rem 0;
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          background-color: $black-darken-4;
+          opacity: 0.8;
+
+          &-advanced {
+            position: absolute;
+            bottom: 36px;
+            margin: 3rem 2rem;
+            margin-bottom: 0;
+            background-color: $blue-darken-2;
+            opacity: 0.8;
+
+            h5 {
+              font-family: 'Futura PT Book';
+              font-size: 30px;
+            }
+
+            hr {
+              color: $white;
+              border-top: solid $white 2px;
+              width: 32%;
+              margin: auto;
+            }
+
+            div {
+              padding: 1rem 2.8rem;
+            }
+
+            .btn {
+              background-color: $white;
+              border-radius: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.screen-meet-our-team {
+  color: $black-lighten-1;
+
+  .title {
+    margin-top: 7rem;
+  }
+
+  hr {
+    margin: auto;
+    width: 8%;
+  }
+
+  .btn {
+    margin-bottom: 7rem;
+  }
+
+  .container-team-member {
+    width: 80%;
+
+    .card-title {
+      font-family: 'Futura PT Book';
+      font-size: 34px;
+      line-height: 14px;
+    }
+
+    .card-text {
+      font-family: 'Futura PT Light';
+      font-size: 24px;
+    }
+  }
+}
+
+.screen-testimonial {
+  background-color: $blue-darken-1;
+  color: $white;
+
+  hr {
+    width: 6%;
+    margin: auto;
+  }
+
+  .carousel {
+    padding-left: 10rem;
+    padding-right: 10rem;
+
+    .carousel-item {
+      padding: 0 15rem;
+      color: $grey-lightest-3;
+    }
+
+    .carousel-control-prev {
+      padding-left: 9rem;
+    }
+
+    .carousel-control-next {
+      padding-right: 9rem;
+    }
+
+    .circle-carousel-btn {
+      width: 32px;
+      height: 32px;
+      background-color: $blue;
+      border-radius: 50%;
+
+      .carousel-control-prev-icon, .carousel-control-next-icon {
+        width: 32%;
+      }
+    }
+  }
+
+  .client-img {
+    width: 74px;
+  }
+
+  .slide-icon {
+    width: 24px;
+  }
+
+
+  .client-name {
+    font-family: 'Futura PT Medium';
+    font-size: 20px;
+  }
+
+  .client-role {
+    font-family: 'Futura PT Medium';
+    font-size: 13px;
+  }
+}
+
+.screen-recent-news {
+  .title {
+    margin-top: 7rem;
+  }
+
+  hr {
+    width: 6%;
+    margin: auto;
+  }
+
+  .container {
+    width: 74%;
+
+    .card {
+      background-color: $blue-darken-1;
+      padding: 2rem;
+
+      .card-body {
+        padding: 1rem 0;
+        padding-bottom: 0;
+        color: $grey-lightest-2;
+        font-family: 'Arial Regular';
+        font-size: 12px;
+
+        h5 {
+          color: $blue;
+          font-family: 'Futura PT DemiBold';
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .btn {
+    margin-bottom: 7rem;
+  }
+}
+
+.screen-contact-us {
+  background-color: $black-darken-3;
+  color: $white;
+
+  .center-contact-us {
+    transform: translate(12%, 18%);
+
+    hr {
+      width: 7%;
+    }
+
+    .form {
+      width: 64%;
+
+      .subject {
+        position: relative;
+
+        img {
+          position: absolute;
+          right: 12px;
+          top: 20px;
+        }
+      }
+
+      input {
+        height: 42px;
+      }
+
+      textarea {
+        height: 125px;
+        resize: none;
+      }
+
+      .form-control {
+        background-color: $black-darken-3;
+        border-color: $blue;
+        border-radius: 2px;
+
+        &::placeholder {
+          color: $grey-lightest-2;
+        }
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+
+  .contact-us-img {
+    width: 100%;
   }
 }
